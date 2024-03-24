@@ -1,0 +1,75 @@
+@use '../abstracts/mixins';
+
+.header {
+    max-width: 100%;
+    display: flex;
+
+    &__img {
+        &--1 {
+            width: 1140px;
+            z-index: 1;
+        }
+    }
+
+    &__title {
+        font-size: $xxx-large;
+        padding-left: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    &__subtitle {
+        font-family: $roboto;
+        font-size: $x-large;
+        padding-left: 4rem;
+        font-weight: 300;
+    }
+
+    &__box {
+
+       &--1 {
+            background-color: $buff;
+            width:9rem;
+            height:9rem;
+            position: relative;
+            top: -10rem;
+            left: 71.3rem;
+            z-index: 1;
+        } 
+
+        &--2 {
+            background-color: $flame;
+            width:9rem;
+            height:9rem;
+            position: relative;
+            top: -21rem;
+            left: 69rem;
+            z-index: 2;
+        }
+
+        &--3 {
+            padding: 2rem;
+            height: 10rem;
+            width: 30rem;
+            background-color: $white;
+            display: flex;
+            position: relative;
+            top: -28.2rem;
+            right: -42rem;
+
+            &-title {
+                font-size: $x-large;
+                font-weight: 600;
+                padding: 0.3rem;
+            }
+
+            &-subtitle {
+                font-family: $roboto;
+                font-size: $large;
+                width: 80%;
+            }
+        }
+
+    }
+}

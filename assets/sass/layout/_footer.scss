@@ -1,0 +1,42 @@
+@use '../abstracts/mixins';
+
+.footer {
+    max-width: 100%;
+    display: flex;
+
+    &__info {
+        $-title {
+            font-size: $
+        }
+    }
+
+    &--4 {
+    
+        background-color: $jeans;
+        height: 14rem;
+        width: 29rem;
+        position: relative;
+        top: -26.3rem;
+        right: -42rem;
+        z-index: 1;
+    }
+
+
+&--5 {
+    &-img {
+        z-index: 2;
+        position: relative;
+        max-width: 12%;
+        rotate:  90deg;
+        float: left;
+        top: -37.4rem;
+        right: -65rem;
+    }
+
+}
+
+&--6 {
+    position: relative;
+    
+}
+}

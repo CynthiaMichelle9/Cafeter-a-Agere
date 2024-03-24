@@ -1,4 +1,7 @@
 /* Abstracts */
+/* Colores */
+/* Fuente alternativa */
+/* Font Sizes */
 /* Vendors  */
 /* Base */
 * {
@@ -13,6 +16,72 @@
 }
 
 /* Layout */
+/* Colores */
+/* Fuente alternativa */
+/* Font Sizes */
+.header {
+  max-width: 100%;
+  display: flex;
+}
+.header__img--1 {
+  width: 1140px;
+  z-index: 1;
+}
+.header__title {
+  font-size: 70px;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+.header__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding-left: 4rem;
+  font-weight: 300;
+}
+.header__box--1 {
+  background-color: #F1DD7B;
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+  top: -10rem;
+  left: 71.3rem;
+  z-index: 1;
+}
+.header__box--2 {
+  background-color: #E4572E;
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+  top: -21rem;
+  left: 69rem;
+  z-index: 2;
+}
+.header__box--3 {
+  padding: 2rem;
+  height: 10rem;
+  width: 30rem;
+  background-color: #FFF;
+  display: flex;
+  position: relative;
+  top: -28.2rem;
+  right: -42rem;
+}
+.header__box--3-title {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0.3rem;
+}
+.header__box--3-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 80%;
+}
+
+/* Colores */
+/* Fuente alternativa */
+/* Font Sizes */
 .nav {
   height: 10rem;
   display: flex;
@@ -36,8 +105,14 @@
   text-decoration: none;
   color: #989797;
 }
+.nav__item-link:hover {
+  color: #000000;
+}
 
 /* Components  */
+/* Colores */
+/* Fuente alternativa */
+/* Font Sizes */
 .nav__button {
   display: flex;
   margin-left: auto;
