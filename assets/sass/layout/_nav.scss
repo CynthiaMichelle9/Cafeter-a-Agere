@@ -1,0 +1,29 @@
+@use '../abstracts/mixins';
+
+
+.nav {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    &__logo {
+        padding-right: 6rem;
+        &-img {
+            width: 4rem;
+        }
+    }
+
+    &__item {
+        font-size: 20px;
+        font-weight: x-large;
+
+        &-link {
+            padding: 2rem;
+            text-decoration: none;
+            color: $spanish-grey;
+        }
+    }
+}

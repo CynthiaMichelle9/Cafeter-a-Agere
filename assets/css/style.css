@@ -1,0 +1,72 @@
+/* Abstracts */
+/* Vendors  */
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+* {
+  font-family: "PT Mono", monospace;
+}
+
+/* Layout */
+.nav {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.nav__logo {
+  padding-right: 6rem;
+}
+.nav__logo-img {
+  width: 4rem;
+}
+.nav__item {
+  font-size: 20px;
+  font-weight: x-large;
+}
+.nav__item-link {
+  padding: 2rem;
+  text-decoration: none;
+  color: #989797;
+}
+
+/* Components  */
+.nav__button {
+  display: flex;
+  margin-left: auto;
+}
+.nav__button--login {
+  background-color: transparent;
+  color: #989797;
+  border-color: #989797;
+  border-width: 1px;
+  padding: 0.8rem;
+}
+.nav__button--login:hover {
+  color: #454545;
+  border-color: #454545;
+}
+.nav__button--signup {
+  background-color: #4CA866;
+  margin-left: 1.5rem;
+  color: #EEEDED;
+  border: none;
+  padding: 0.8rem;
+}
+.nav__button--signup:hover {
+  background-color: #9DCFAB;
+  color: #989797;
+  border: none;
+}
+
+/* Pages */
+/* Themes  */
+
+/*# sourceMappingURL=style.css.map */

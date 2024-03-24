@@ -1,0 +1,32 @@
+@use '../abstracts/mixins';
+
+.nav {
+    &__button {
+        display: flex;
+        margin-left: auto;
+        &--login {
+            background-color: transparent;
+            color: $spanish-grey;
+            border-color: $spanish-grey;
+            border-width: 1px;
+            padding: 0.8rem;
+            &:hover {
+                color: $outer-space;
+                border-color: $outer-space;
+            }
+        }
+
+        &--signup {
+            background-color: $secondary-button;
+            margin-left: 1.5rem;
+            color: $isabeline;
+            border: none;
+            padding: 0.8rem;
+            &:hover {
+                background-color: $secondary-button-hover;
+                color: $spanish-grey;
+                border: none;
+            }
+        }
+    }
+}
