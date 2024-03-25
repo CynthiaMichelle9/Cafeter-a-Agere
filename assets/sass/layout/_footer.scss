@@ -2,41 +2,67 @@
 
 .footer {
     max-width: 100%;
-    display: flex;
+    clear: both;
 
     &__info {
-        $-title {
-            font-size: $
+        padding: 6rem;
+
+        &-title {
+            width: 46%;
+            font-size: $xx-large;
+            padding-bottom: 2rem
+        }
+
+        &-subtitle {
+            width: 26%;
+            font-family: $roboto;
+            font-size: $large;
         }
     }
 
-    &--4 {
-    
-        background-color: $jeans;
-        height: 14rem;
-        width: 29rem;
-        position: relative;
-        top: -26.3rem;
-        right: -42rem;
-        z-index: 1;
+    &__box {
+        width:100vw;
+        &--4 {
+            background-color: $jeans;
+            height: 20rem;
+            width: 38rem;
+            position: relative;
+            top: -23.9rem;
+            right: -35.5rem;
+            z-index: 3;
+        }
+
+        &--5 {
+            &-img {
+                z-index: 4;
+                position: relative;
+                max-width: 14%;
+                rotate: 90deg;
+                top: -40.5rem;
+                right: -66rem;
+            }
+
+        }
+
+        &--6 {
+            &-img {
+                position: relative;
+                z-index: 2;
+                top:-50.7rem;
+                left: 73.5rem;
+                height: 24rem;
+            }
+        }
+
+        &--7 {
+            &-img {
+                position: relative;
+                height: 18rem;
+                width: 36rem;
+                top: -72rem;
+                right: -32rem;
+                z-index: 4;
+            }
+        }
     }
-
-
-&--5 {
-    &-img {
-        z-index: 2;
-        position: relative;
-        max-width: 12%;
-        rotate:  90deg;
-        float: left;
-        top: -37.4rem;
-        right: -65rem;
-    }
-
-}
-
-&--6 {
-    position: relative;
-    
-}
 }
